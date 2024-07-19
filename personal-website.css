@@ -1,0 +1,298 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+.bruno-ace-sc-regular {
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    font-family: "Bruno Ace SC", sans-serif;
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.header{
+    background-color: black;
+}
+.nav-bg{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.nav-bg a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #D1D1D1;
+    text-decoration: none;
+}
+.bg1{
+    width: 128px;
+}
+.bg2{
+    width: 185px;
+}
+.bg3{
+    width: 278.5px;
+}
+.bg4{
+    width: 136px;
+}
+.people{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    padding-bottom: 30px;
+}
+.people img{
+    width: 636px;
+    height: auto;
+}
+.people-intro{
+    width: 636px;
+    padding-top: 180px;
+}
+.people-intro li{
+    color: #FFFFFF;
+    font-size: 58px;
+    line-height: 96px;
+}
+.personal-ID{
+    padding-top: 50px;  
+}
+.personal-ID li{
+    font-size: 128px;
+    color: #00ffa3;
+    margin-bottom: 30px;
+    text-align: right;
+}
+.contact{
+    margin-left: 445px;
+}
+.white-btn{
+    display: flex;
+    color: black;
+    width: 185px;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 32px; 
+    text-align: center;
+    padding: 12px 24px;
+}
+.white-btn:hover{
+    color: red;
+}
+.introduction{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");   
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    display: flex;
+}
+.intro-all{
+    display: flex;
+    justify-content: space-between;
+}
+.intro-detail{
+    width: 526px;
+    padding: 160px 0;
+}
+.intro-detail h2{
+    font-size: 64px;
+    line-height: 96px;
+    margin-bottom: 50px;
+}
+.intro-detail p{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+.sparkle-sm{
+    display: flex;
+}
+.sparkle-sm li{
+    margin-right: 16px;
+}
+.intro-photo{
+    width: 746px;
+    display: flex;
+    padding: 160px 0;
+}
+.intro-photo2{
+    margin-right: 22px;
+    margin-left: 22px;
+}
+.personal-all{
+    display: flex;
+    justify-content: space-between;
+}
+.personal-strength{
+    width: 636px;
+}
+.four-strength{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 200px 0;
+}
+.four-strength li{
+    width:306px;
+    border: 1px solid #e3e3e3;
+    font-size: 20px;
+    line-height: 30px;
+}
+.first-strength{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.second-strength{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.third-strength{
+    margin-right: 10px;
+    margin-top: 10px;   
+}
+.fourth-strength{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.four-strength li .small-p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.personal-skill{
+    width: 526px;
+    padding: 160px 0;
+}
+.personal-skill h2{
+    font-size: 64px;
+    line-height: 96px;
+    margin-bottom: 20px;
+}
+.personal-skill p{
+    font-size: 24px;
+    line-height: 36px;
+}
+.contact-me{
+    background-color: #050014;
+}
+.contact-all{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-title{
+    display: flex;
+    font-size: 64px;
+    line-height: 96px;
+    color: #FFFFFF;
+    padding: 120px 0;
+}
+.social-icon{
+    display: flex;
+    padding: 96px 0;
+}
+.icon1{
+    margin-right: 20px;
+}
+.icon2{
+    margin-right: 20px;
+}
+.projects-title{
+    font-size: 64px;
+    line-height: 96px;
+    text-align: end;
+    padding-top: 160px;
+    padding-right: 100px;
+}
+.projects-items{
+    display: flex;
+    padding-bottom: 160px;
+}
+.pro-items1{
+    margin-right: 20px;
+}
+.pro-items2{
+    font-size: 16px;
+    line-height: 24px;   
+}
+.items-block1{
+    display: flex;
+    margin-bottom: 30px;
+}
+.items-block1 img{
+    height: auto;
+    margin-right: 20px;
+}
+.black-btn{
+    width: 208px;
+    display: flex;
+    color: #FFFFFF;
+    background-color: #000;
+    border-radius: 32px;
+    padding: 12px 24px;
+    text-align: center;
+    margin-top: 70px;
+}
+.block2-img{
+    margin-right: 20px;
+}
+.footer{
+    background-color: #000;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 24px;
+    padding: 40px 0;
+}
